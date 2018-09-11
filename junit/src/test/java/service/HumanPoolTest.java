@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 public class HumanPoolTest {
 
     @Rule
-    public TestRule timeout = new Timeout(100L,TimeUnit.MILLISECONDS);
+    public TestRule timeout = new Timeout(1000000L,TimeUnit.MILLISECONDS);
 
     @Before
     public void setUp() throws Exception {
